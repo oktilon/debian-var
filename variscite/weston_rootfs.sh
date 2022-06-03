@@ -123,6 +123,8 @@ echo "deb ${DEF_DEBIAN_MIRROR} ${DEB_RELEASE} main contrib non-free
 deb-src ${DEF_DEBIAN_MIRROR} ${DEB_RELEASE} main contrib non-free
 deb ${DEF_DEBIAN_MIRROR} ${DEB_RELEASE}-backports main contrib non-free
 deb-src ${DEF_DEBIAN_MIRROR} ${DEB_RELEASE}-backports main contrib non-free
+deb ${DEF_DEBIAN_MIRROR} bullseye main contrib non-free
+deb-src ${DEF_DEBIAN_MIRROR} bullseye main contrib non-free
 " > etc/apt/sources.list
 
 # raise backports priority
